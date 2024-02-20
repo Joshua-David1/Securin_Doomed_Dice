@@ -14,7 +14,9 @@ python3 part-A.py
 
 1) To Find out the total combinations, we first have to see how many faces are there for each of the 2 Dice. Dice A has 6 faces [1,2,3,4,5,6] and Dice B also has 6 faces [1,2,3,4,5,6]. To fnd out the total combinations possible , we have to multiply number of faces of Dice A x number of faces of Dice B. Hence the total combinations are 6*6 which is equal to 36. <br>
 2) Here, Each Value of Dice A must be mapped with every other value of Dice B and then adding both the mapped values for each iteration would result in distribution matrix. This can be done with the time complexity of O(n x m) since we would be needing two for loops... One 'for loop' is to loop through Dice A and the other 'for loop' is to loop through Dice B. Since Dice A has a face of 'n' sides and Dice B has a face of 'm' sides, the time complexity is O(n x m). <br>
-3) To calculate the probability of all the sums occuring, a hash_map is used to keep track of the occurence of a particular sum. Once done, each number of sums would be divided by the total_combinations available, to get the probability.
+3) To calculate the probability of all the sums occuring, a hash_map is used to keep track of the occurence of a particular sum. Once done, each number of sums would be divided by the total_combinations available, to get the probability. <br>
+
+Bonus : After solving all the necessary questions, the occurence of each sum is stored in a seperate JSON file, which would be useful in solving PART-B
 
 ## PART B
 
