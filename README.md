@@ -30,6 +30,12 @@ python3 part-B.py
 
 ### Logic
 
+1) The getprobabilities() function, is used to to calculate all the possible combinations of Dice A and Dice B  with the contraints given.
+2) The occurence of the standard sums of Dice A and Dice B are loaded from the json file (possible_sum_probability.json) and stored in a local variable named 'standardProb'.
+3) The undoomDice() function, maps out each and every possibility of NewDiceA with each and every other possibility of NewDiceB to check whether the newprobility of Dice A and Dice B match that of the standard probabilities of Dice A and Dice B.
+4) A Recursive solution is used to solve this problem.
+5) After brute-forcing all the possible combinations of New Dice A and New Dice B with the given contraints... The only possible combination of Dice A and Dice B that satisfy the standard probabilities are Dice A= [1, 2, 2, 3, 3, 4] and Dice B = [1, 3, 4, 5, 6, 8].
+
 ## Part A Output
 <img width="1262" alt="Screenshot 2024-02-20 at 10 42 44 AM" src="https://github.com/Joshua-David1/Securin_Doomed_Dice/assets/69303816/6078f21f-a9df-4763-8680-2589ca62b949">
 
