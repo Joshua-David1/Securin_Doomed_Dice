@@ -1,5 +1,25 @@
 # Securin Doomed Dice Challenge!
 
+## PART A
+
+### How to run
+
+```rb
+python3 part-A.py
+```
+
+### Logic
+
+## PART B
+
+### How to run
+
+```rb
+python3 part-B.py
+```
+
+### Logic
+
 ## Part A Output
 <img width="1262" alt="Screenshot 2024-02-20 at 10 42 44 AM" src="https://github.com/Joshua-David1/Securin_Doomed_Dice/assets/69303816/6078f21f-a9df-4763-8680-2589ca62b949">
 
